@@ -7,6 +7,7 @@ import { GitSearchComponent } from './git-search/git-search.component';
 import { CustomPipePipe } from './custom-pipe.pipe';
 import { CustomDirective } from './custom.directive';
 import { GitSearchDetailsComponent } from './git-search-details/git-search-details.component';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { GitSearchDetailsComponent } from './git-search-details/git-search-detai
     GitSearchComponent,
     CustomPipePipe,
     CustomDirective,
-    GitSearchDetailsComponent
+    GitSearchDetailsComponent,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,
