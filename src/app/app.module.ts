@@ -9,6 +9,7 @@ import { CustomDirective } from './custom.directive';
 import { GitSearchDetailsComponent } from './git-search-details/git-search-details.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
+import { SearchFormComponent } from './search-form/search-form.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { RepositoriesComponent } from './repositories/repositories.component';
     CustomDirective,
     GitSearchDetailsComponent,
     NotFoundComponent,
-    RepositoriesComponent
+    RepositoriesComponent,
+    SearchFormComponent
   ],
   imports: [
     BrowserModule,
