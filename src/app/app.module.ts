@@ -10,6 +10,7 @@ import { GitSearchDetailsComponent } from './git-search-details/git-search-detai
 import { NotFoundComponent } from './not-found/not-found.component';
 import { RepositoriesComponent } from './repositories/repositories.component';
 import { SearchFormComponent } from './search-form/search-form.component';
+import { UsersComponent } from './users/users.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { SearchFormComponent } from './search-form/search-form.component';
     GitSearchDetailsComponent,
     NotFoundComponent,
     RepositoriesComponent,
-    SearchFormComponent
+    SearchFormComponent,
+    UsersComponent
   ],
   imports: [
     BrowserModule,
