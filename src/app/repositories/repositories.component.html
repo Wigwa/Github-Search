@@ -1,1 +1,12 @@
-<p>repositories works!</p>
+<div class="container-fluid">
+    <app-search-form (searchOutput)= "repoSearch($event)"></app-search-form>
+    <div class="container">
+        <div class="container allrepos">
+            <div class="card" appHighlight *ngFor="let repository of repo" style="width: 22rem;" class="repo">
+            <div class="card-body">
+                <h4 class="card-title">Repo Name: & nbsn;{{ repository.name }}</h4>
+                
+            </div>
+        </div>
+    </div>
+</div>
